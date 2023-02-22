@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+            list-style-type: circle;
+            list-style-position: inside;
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+        font: 16px Verdana;
+        line-height: 1.6;
+        background:#e0dfe1;
+        }
+        #blok{
+            width: 90%;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+        a{
+        color: #354458;
+        }
+        #header{
+        height: 100px;
+        background: #354458;
+        margin: 0 0 10px 0;
+        }
+        #header h1{
+        padding: 20px;
+        color: #e9e0d6;
+        }
+        #kon{
+        width: 75%;
+        background: #c0c0c0;
+        float: left;
+        padding: 1%;
+        overflow: hidden;
+        }
+        #menu{
+        background-color: #bbc0bb;
+        width: 20%;
+        float: right;
+        padding: 1%;
+        overflow: hidden;
+        }
+        #menu h4{
+        padding: 3px 3px 15px 3px;
+        }
+        #menu ul li {
+        list-style-type: none;
+        padding:  0 0 0 10px;
+        }
+        li a{
+        text-decoration: none;}
+
+        @media only screen and (max-width: 680px){
+            #menu {
+            width:88%;
+            position: absolute;
+            height: 30px;
+        }
+        #menu h4{
+        display: none;
+        }
+        #menu ul li{
+        display: inline;
+        }
+        #kon{
+        width: 98%;
+        position: relative;
+        top: 30px;
+        margin-top: 3%;}
+        }
+        #header{
+            height: 120px;
+        }
+    </style>
+</head>
+<body> 
+    
+    <header id="header">
+        <h1>Konkurs Programistyczny Pehape</h1>
+    </header>
+   <div id="blok">
+        <section class="kolumny" id="kon">
+            <h1>Podstawowe Informacje</h1>
+            <p>"Międzynarodowy Konkurs Programistyczny Pehape" to indywidualny konkurs programowania w języku PHP. Jest on przeznaczony dla dzieci i młodzieży ze szkół podstawowych, szkół średnich, uczelni oraz dla organizacji pracujących z dziećmi.
+                Konkurs prowadzony jest na Platformie konkursowej pehapekonkursik.pl
+                Główny organizator konkursu: ZSE Poznań.
+                Konkurs jest bezpłatny.</p><br><br>
+                <h1>Etapy Konkursu</h1>
+                <p>
+                    <ul>
+                        <li>Zgłoszenie do konkursu</li>
+                        <p>Nauczyciel na tej zgłosi szkołę oraz uczniów </p>
+                        <li>Etap domowy</li>
+                        <p>Termin: 10.01.2022, 08:00 - 10.06.2022, 11:30. <br>
+                            Limit czasowy: nie ma wskazanego limitu czasowego, uczniowie mogą pracować w szkole lub w domu.<br>
+                            Wyniki: nie są publiczne, widzą je (na bieżąco) tylko zalogowani nauczyciele szkoły.</p>
+                            <li>Etap szkolny</li>
+                            <p>Termin: 29.04.2022, 09:00 - 21.05.2022, 17:00<br>
+                                Do etapu wojewódzkiego zawodników nominują nauczyciele według wyników w szkolnym etapie, w zależności od liczby komputerów w wybranej Placówce konkursowej.<br>
+                                Maksymalna liczba placówek konkursowych: nieograniczona.<br>
+                                Limit czasowy: 120 minut.<br>
+                                Wyniki: 23.05.2022, 09:00.
+                                </p>
+                        </ul>
+                </p>
+        </section>
+        <section class="kolumny" id="menu">
+            <h4>Menu</h4>
+            <ul>
+                <li><a href="">Ogłoszenia</a></li>
+                <li><a href="">Zapisy</a></li>
+                <li><a href="">Regulamin</a></li>
+                <li><a href="">Terminy</a></li>
+                
+            </ul>
+            </article>
+    </div>
+</body>
+</html>
+<!--https://baltie.net/(S(q4si1n5fzzmynt2r5rlrvx4m))/Default.aspx?ContestID=129&DisplayFor=1-->
